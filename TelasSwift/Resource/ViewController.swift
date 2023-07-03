@@ -15,5 +15,15 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func IrparaTelaVerde(_ sender: Any) {
+        
+        performSegue(withIdentifier: "gotoverde", sender: self)
+        
+        
+        
+    }
 }
+
+
+
 
